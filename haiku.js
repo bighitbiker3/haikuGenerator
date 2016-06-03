@@ -19,12 +19,6 @@ function formatData(data){
 }
 
 
-
-function createHaiku(structure){
-
-  return finalHaiku
-}
-
 function createHaiku(structure, oneWord){
   if(structure === undefined){
     throw "You need to define a structure argument"
